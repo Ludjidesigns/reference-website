@@ -1,15 +1,118 @@
 body{
    background-color: black;
    color:white;
+   font-family: "Roboto", sans-serif;
+   line-height: 1.4;
+   font-size: 110%;
+   
+   
+}
+
+/* unvisited link */
+a:link{
+   background-color: white;
+   border: 2px solid purple;
+   color: orange;
+   text-decoration: none;
+}
+
+/* visited link */
+a:visited{
+   padding: 10px 20px;
+   border: 2px solid purple;
+   color: red;
+}
+
+/* mouse over link */
+a:hover{
+   border: 2px solid purple;
+   color: blue;
+}
+
+/* highlighted link */
+a:focus{
+  border: 2px solid purple;
+  color: green;
+}
+
+/* selected link */
+a:active {
+  border: 2px solid purple;
+  color: yellow;
 }
 
 h1 {
    color: whitesmoke;
+   margin-bottom: .2em;
+   margin-top: 1em;
+}
+
+h2 {
+   color: whitesmoke;
+   margin-bottom: .2em;
+   margin-top: 1em;
 }
 
 img {
    width: 20%;
    height: auto;
+   padding: 1em;
+   background-color: aliceblue;
+
 }
 
 /*comment in css example*/
+
+.css-examples p:nth-child(5) {
+   font-style: oblique;
+}
+
+.css-examples p:nth-child(6) {
+   font-weight: 700;
+}
+
+.css-examples p:nth-child(7) {
+   font: normal 1rem/1.5 "Roboto", sans-serif;
+}
+
+.css-examples p:nth-child(8) {
+   text-shadow: 2px 2px red;
+}
+
+.css-examples p:nth-child(9) {
+   text-decoration: underline;
+}
+
+.css-examples p:nth-child(10) {
+   text-transform: uppercase;
+}
+
+.css-examples p:nth-child(11) {
+   text-align: right;
+}
+
+.css-examples p:nth-child(12) {
+   text-indent: 5em;
+}
+
+
+
+
+
+
+  
+   
+   
+   
+ 
+   
+   
+   
+
+
+   
+   
+ 
+  
+  
+   
